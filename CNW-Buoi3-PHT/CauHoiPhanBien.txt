@@ -1,0 +1,2 @@
+Câu hỏi của em: 
+Trong một ứng dụng web hiện đại, một người dùng thường thực hiện nhiều yêu cầu HTTP gần như cùng một lúc (ví dụ: mở nhiều tab hoặc nhiều lệnh AJAX đồng thời). PHP xử lý các yêu cầu này như thế nào để đảm bảo tính toàn vẹn dữ liệu của $ _SESSION$?

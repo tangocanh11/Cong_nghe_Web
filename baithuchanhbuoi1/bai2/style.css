@@ -1,0 +1,111 @@
+
+body {
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    background-color: #f4f7fb; 
+    margin: 24px;
+    color: #111827; 
+}
+.container {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 12px 36px rgba(16,24,40,0.08);
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #0f172a;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.question {
+    margin-bottom: 18px;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #e6eef8;
+    background-color: #ffffff;
+}
+.question-text {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #0b1220;
+}
+
+.answers {
+    margin-left: 6px;
+}
+
+.answer-item {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.answer-item input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #2563eb; /* pleasant blue */
+}
+
+.answer-item label {
+    cursor: pointer;
+    color: #475569; /* muted slate */
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: background-color 0.12s ease, color 0.12s ease;
+}
+.answer-item label:hover {
+    background-color: #f1f8ff;
+    color: #1e3a8a; /* darker blue */
+}
+
+/* highlight selected option */
+.answer-item input[type="radio"]:checked + label {
+    background-color: #eaf2ff;
+    color: #1e3a8a;
+    font-weight: 600;
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 18px;
+}
+button, .btn {
+    padding: 10px 18px;
+    margin: 0 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.btn-submit, button[type="button"] {
+    background: linear-gradient(180deg, #2563eb, #1e3a8a);
+    color: #ffffff;
+    border-color: rgba(37,99,235,0.9);
+    box-shadow: 0 6px 18px rgba(37,99,235,0.12);
+}
+
+.btn-submit:hover, button[type="button"]:hover { opacity: 0.96; transform: translateY(-1px); }
+.btn-reset, button[type="reset"] {
+    background: #f8fafc;
+    color: #0f172a;
+    border-color: #e6eef8;
+}
+
+.score-message {
+    display: none;
+    background-color: #f0fdf4; /* soft green background */
+    border: 1px solid #10b981; /* emerald */
+    color: #065f46;
+    padding: 12px 14px;
+    margin: 16px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 8px;
+}

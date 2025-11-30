@@ -1,0 +1,2 @@
+câu hỏi phản biện của em 
+Tại sao khi lấy dữ liệu từ database để hiển thị lên trang web (ví dụ tên sinh viên, email), chúng ta phải sử dụng hàm htmlspecialchars() trước khi echo ra HTML? Điều gì có thể xảy ra nếu ta in trực tiếp dữ liệu người dùng nhập vào mà không lọc hoặc mã hoá nó?

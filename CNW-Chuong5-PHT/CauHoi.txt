@@ -1,0 +1,2 @@
+Câu hỏi của em 
+- Nếu project lớn có nhiều Controller, làm thế nào để tránh việc mỗi Controller phải tự tạo kết nối PDO lặp lại?

@@ -1,0 +1,4 @@
+Câu hỏi 
+Trong Laravel, khi định tuyến (Routing), chúng ta có thể truyền thẳng một Closure (Hàm ẩn danh) vào Route::get('/ten-url', function () { ... }) thay vì trỏ đến một Controller (Route::get('/ten-url', [MyController::class, 'myMethod'])
+    Trong những trường hợp nào ta nên sử dụng Closure trực tiếp?    
+    Trong những trường hợp nào ta bắt buộc phải sử dụng Controller?
